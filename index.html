@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Coexisting biomes in a heterogeneous landscape are alternative stable states?</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Marcio Baldissera Cure - Bernardo Monteiro Flores - Marina Hirota" />
+    <meta name="date" content="2021-07-14" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/uo.css" rel="stylesheet" />
+    <link href="libs/remark-css/rutgers-fonts.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-webcam/webcam.js"></script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <script src="libs/proj4/proj4.min.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+    <link rel="stylesheet" href="marcio.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Coexisting biomes in a heterogeneous landscape are alternative stable states?
+## Apresentação para o IPES
+### Marcio Baldissera Cure - Bernardo Monteiro Flores - Marina Hirota
+### PPG Ecologia, UFSC
+### 2021-07-14
+
+---
+
+class: top, center
+
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 110px;
+height: 128px;
+z-index: 0;
+background-image: url(https://ipes.ufsc.br/wp-content/themes/ipes-v1/images/logotipo.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:1em;right:1em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
+
+
+
+
+
+
+
+
+
+## Savanas e Florestas na região tropical
+
+São estados alternativos em relação à estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/hirota.jpg" alt="Hirota et al (2011) Science" width="60%" /&gt;
+&lt;p class="caption"&gt;Hirota et al (2011) Science&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Sob o mesmo regime de precipitação
+
+- __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/staalflores.png" alt="Staal &amp;amp; Flores (2015) Biogeoscience" width="65%" /&gt;
+&lt;p class="caption"&gt;Staal &amp; Flores (2015) Biogeoscience&lt;/p&gt;
+&lt;/div&gt;
+
+  *Ferreira et al (2007); Staver et al (2011); Dantas et al (2016); Veenendaal et al (2018); Pausas et al (2020)*
+
+---
+
+class: top, left
+
+## Cerrado *stricto sensu*
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190416_131351.jpg" alt="Cerrado stricto sensu com baixo tree cover no PNCV. Ao fundo o Morro da Baleia. Foto: MBC" width="60%" /&gt;
+&lt;p class="caption"&gt;Cerrado stricto sensu com baixo tree cover no PNCV. Ao fundo o Morro da Baleia. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Cerrado *stricto sensu*
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190420_103919.jpg" alt="Cerrado stricto sensu ao lado do Morro da Baleia no PNCV. Foto: MBC" width="65%" /&gt;
+&lt;p class="caption"&gt;Cerrado stricto sensu ao lado do Morro da Baleia no PNCV. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Cerrado *stricto sensu*
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190418_113650.jpg" alt="Cerrado stricto sensu ao lado do Jardim de Maitrea, no PNCV. Foto: MBC" width="65%" /&gt;
+&lt;p class="caption"&gt;Cerrado stricto sensu ao lado do Jardim de Maitrea, no PNCV. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+## Mata de Galeria
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190430_111056.jpg" alt="Mata de Galeria no Jardim de Maitrea, PNCV. Note o solo alagado. Foto: MBC" width="65%" /&gt;
+&lt;p class="caption"&gt;Mata de Galeria no Jardim de Maitrea, PNCV. Note o solo alagado. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Mata de Galeria
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190428_152559.jpg" alt="Mata de Galeria no Estiva, PNCV. Foto: MBC" width="45%" /&gt;
+&lt;p class="caption"&gt;Mata de Galeria no Estiva, PNCV. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+## Mata de Galeria
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/IMG_20190503_153610.jpg" alt="Mata de Galeria nos Ingleses, PNCV. Foto: MBC" width="45%" /&gt;
+&lt;p class="caption"&gt;Mata de Galeria nos Ingleses, PNCV. Foto: MBC&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+## Mas não é só isso...
+
+--
+
+- Além das savannas e das florestas úmidas, também existem as matas secas. 
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg" alt="Dexter et al (2018) Front. Ecol. Evol." width="60%" /&gt;
+&lt;p class="caption"&gt;Dexter et al (2018) Front. Ecol. Evol.&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Mata seca
+
+- Vegetação relacionada com solos calcáreos com maior fertilidade.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="img/WhatsApp Image 2021-04-22 at 11.20.44.jpeg" alt="Mata Seca em Nova Roma, GO. Foto: Sr Gerson (proprietário da área)" width="45%" /&gt;
+&lt;p class="caption"&gt;Mata Seca em Nova Roma, GO. Foto: Sr Gerson (proprietário da área)&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+## Mata seca
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://www.embrapa.br/image/journal/article?img_id=43816247&amp;t=1559587291923" alt="Foto: Bruno Walter - EMBRAPA" width="60%" /&gt;
+&lt;p class="caption"&gt;Foto: Bruno Walter - EMBRAPA&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+class: top, left
+
+## Outra mata seca bem bonita
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://www.embrapa.br/image/journal/article?img_id=43816249&amp;t=1559587292941" alt="Foto: José Felipe Ribeiro - EMBRAPA" width="60%" /&gt;
+&lt;p class="caption"&gt;Foto: José Felipe Ribeiro - EMBRAPA&lt;/p&gt;
+&lt;/div&gt;
+
+---
+class: top, left
+
+# Diferentes tipos de vegetação respondem de forma diferente às perturbações.
+
+
+- Os diferentes tipos de vegetação possuem composição de espécies particulares e, portanto, características funcionais diferentes;
+
+
+- Por possuirem características funcionais diferentes, também interagem com o ambiente de forma diferente.
+
+
+
+
+
+
+
+*Charles-Dominique et al (2015); Yin et al (2014); Berdugo et al (2017); Staver et al (2020)*
+
+
+---
+class: top, left
+
+# Produtividade primária como um proxy do funcionamento da vegetação
+
+- Produção primária bruta é uma função básica para os ecossistemas e pode ser inferida por índices derivados de imagens de satélite *Biudes et al (2021)*.
+
+
+---
+class: top, left
+
+# Objetivo
+
+- Testar se Cerrado stricto senso, matas de galeria e  matas secas sob um mesmo regime de precipitação são estados alternativos funcionais.
+
+--
+
+
+# Hipótese
+
+- As fisionomias vegetais têm funcionamento diferente, mas só podem ser estados alternativos se ocorrerem nas mesmas condições locais ou se o seu funcionamento retroalimentar estas condições.
+
+---
+class: top, left
+
+# Métodos
+*** Local do estudo***
+
+- Diferentes tipos de vegetação coexistindo na mesma paisagem e sob o mesmo regime de chuvas.
+
+&lt;img src="img/Figure_1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: top, left
+
+# Métodos
+
+## Dados de campo
+
+- 10 parcelas em cada fitofisionomia;
+
+- cada uma com 200 m²;
+
+- Coleta de solo.
+
+---
+
+class: top, left
+
+# Métodos
+
+## Dados remotos
+
+- Landsat 8 OLI (Abril 2013 - Junho 2018);
+
+--
+
+- CHIRPS (mesmo período).
+
+---
+class: top, left
+
+# Métodos
+
+- Acoplamento = Correlação de Kendall entre chuva média mensal e EVI2 médio mensal;
+
+--
+
+- Magnitude do acoplamento = valor absoluto do acoplamento;
+
+--
+
+- Cálculo do atraso nas respostas andando de zero a seis meses para trás a precipitação;
+
+--
+
+- PCA para reduzir variáveis do solo em duas dimensões;
+
+--
+
+- Regressão linear simples: Acoplamento ~ atributos do solo/PC1;
+
+--
+
+- Teste de Kruskal-Wallis e teste a posteriori de Nemenyi para testar diferenças entre as fitofisionomias.
+
+---
+class: top, left
+
+# Resultados
+
+**Estatística descritiva do EVI2**
+
+&lt;img src="img/Figure_3.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top, left
+
+# Resultados
+
+**Acoplamento e atraso na resposta**
+
+&lt;img src="img/Figure_4.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top, left
+
+# Resultados
+
+**Biomas agrupados por composição do solo**
+
+&lt;img src="img/SM7.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top, left 
+
+# Discussão
+
+## Respostas às flutuações na precipitação
+
+- Mata de galeria diminui o greenness na estação chuvosa;
+
+- Savanna não é sensível à diminuição da precipitação durante a estação seca;
+
+- Mata seca passa mais sede que as outras vegetações.
+
+---
+class: top, left
+
+# Discussão
+
+## Implicações pra transição dos biomas: estabilidade e resiliência
+
+- Quem pode avançar sobre quem?
+
+---
+
+<div id="htmlwidget-6bc83349c4a1b413a5b2" style="width:50%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6bc83349c4a1b413a5b2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[-14.0285,-47.4],9,[]]},"evals":[],"jsHooks":[]}</script>
+
+---
+class: top, center
+
+# Resultados extras
+
+## Comportamento da série temporal de EVI2 e precipitação
+
+&lt;img src="img/Figure_2.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+# Agradecimentos
+- 
+-
+-
+-
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="libs/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
