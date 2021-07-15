@@ -242,7 +242,7 @@ class: top, left
 
 # Métodos
 
-## Dados remotos
+**Obtenção dos *Dados remotos***
 
 - Landsat 8 OLI (Abril 2013 - Junho 2018) <https:www.earthexplorer.usgs.gov>
 
@@ -255,11 +255,13 @@ class: top, left
 
 # Métodos
 
+**Análises**
+
 - Acoplamento = Correlação de Kendall entre chuva média mensal e EVI2 médio mensal; 
 
-- Magnitude do acoplamento = valor absoluto do acoplamento;
+- Magnitude do acoplamento = valor absoluto do acoplamento (*sem o sinal*);
 
-- Cálculo das respostas da vegetação (acoplamento) com atraso de zero a seis meses;
+- Cálculo das respostas da vegetação (acoplamento) *com atraso* (**lag**) de zero a seis meses;
 
 --
 
@@ -314,6 +316,13 @@ class: top, left
 ## Respostas às flutuações na precipitação
 
 - Mata de galeria diminui o greenness na estação chuvosa;
+
+```{r}
+knitr::include_graphics()
+```
+
+
+---
 
 - Savanna não é sensível à diminuição da precipitação durante a estação seca;
 
