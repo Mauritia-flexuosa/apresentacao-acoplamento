@@ -63,52 +63,27 @@ class: top, left
 
 ## Cerrado *stricto sensu*
 
-```{r , include=TRUE, echo=FALSE, out.width="60%", fig.align='center',  fig.cap= "Cerrado stricto sensu com baixo tree cover no PNCV. Ao fundo o Morro da Baleia. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190416_131351.jpg")
-```
+- A cobertura do dossel varia de 5 a 60%
 
----
-class: top, left
+- Presença de gramíneas
 
-## Cerrado *stricto sensu*
-
-```{r , include=TRUE, echo=FALSE, out.width="65%", fig.align='center',  fig.cap= "Cerrado stricto sensu ao lado do Morro da Baleia no PNCV. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190420_103919.jpg")
-```
-
----
-class: top, left
-
-## Cerrado *stricto sensu*
-
-```{r , include=TRUE, echo=FALSE, out.width="65%", fig.align='center',  fig.cap= "Cerrado stricto sensu ao lado do Jardim de Maitrea, no PNCV. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190418_113650.jpg")
-```
-
----
-## Mata de Galeria
-
-```{r , include=TRUE, echo=FALSE, out.width="65%", fig.align='center', fig.cap= "Mata de Galeria no Jardim de Maitrea, PNCV. Note o solo alagado. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190430_111056.jpg")
-```
+<img width="32%" src="img/IMG_20190416_131351.jpg"/>
+<img width="33%" src="img/IMG_20190418_113650.jpg"/>
+<img width="33%" src="img/IMG_20190420_103919.jpg"/>
+                                    Fotos de MBC (2019)
+                  
 
 ---
 class: top, left
 
 ## Mata de Galeria
 
-```{r , include=TRUE, echo=FALSE, out.width="45%", fig.align='center', fig.cap= "Mata de Galeria no Estiva, PNCV. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190428_152559.jpg")
+<img width="32%" src="img/IMG_20190430_111056.jpg"/>
+<img width="33%" src="img/IMG_20190428_152559.jpg"/>
+<img width="33%" src="img/IMG_20190503_153610.jpg"/>
 
-```
+Fotos de MBC (2019)
 
----
-
-## Mata de Galeria
-
-```{r, include=TRUE, echo=FALSE, out.width="45%", fig.align='center', fig.cap= "Mata de Galeria nos Ingleses, PNCV. Foto: MBC"}
-knitr::include_graphics("img/IMG_20190503_153610.jpg")
-```
 
 ---
 
@@ -131,29 +106,11 @@ class: top, left
 
 - Vegetação relacionada com solos calcáreos com maior fertilidade.
 
-```{r, include=TRUE, echo=FALSE, out.width="45%", fig.align='center', fig.cap= "Mata Seca em Nova Roma, GO. Foto: Sr Gerson (proprietário da área)"}
-knitr::include_graphics("img/WhatsApp Image 2021-04-22 at 11.20.44.jpeg")
-```
 
----
-class: top, left
-
-## Mata seca
-
-
-```{r figure245, include=TRUE, echo=FALSE, out.width="60%", fig.align='center', fig.pos='bottom', fig.cap="Foto: Bruno Walter - EMBRAPA"}
-knitr::include_graphics("https://www.embrapa.br/image/journal/article?img_id=43816247&t=1559587291923")
-```
-
----
-
-class: top, left
-
-## Outra mata seca bem bonita
-
-```{r figure247, include=TRUE, echo=FALSE, out.width="60%", fig.align='center', fig.pos='bottom', fig.cap="Foto: José Felipe Ribeiro - EMBRAPA"}
-knitr::include_graphics("https://www.embrapa.br/image/journal/article?img_id=43816249&t=1559587292941")
-```
+<img width="32%" src="img/WhatsApp Image 2021-04-22 at 11.20.44.jpeg"/>
+<img width="33%" src="https://www.embrapa.br/image/journal/article?img_id=43816247&t=1559587291923"/>
+<img width="33%" src="https://www.embrapa.br/image/journal/article?img_id=43816249&t=1559587292941"/>
+Da esquerda para a direita, respectivamente, imagem de: Sr Gerson (proprietário da área); Bruno Walter (EMBRAPA); José Felipe Ribeiro (EMBRAPA)
 
 ---
 class: top, left
@@ -179,7 +136,7 @@ class: top, left
 
 - Produção primária bruta é uma função básica para os ecossistemas e pode ser inferida por índices derivados de imagens de satélite *Biudes et al (2021)*.
 
-```{r coisaseria, include = TRUE, echo = FALSE, out.width="70%", fig.align="center"}
+```{r coisaseria, include = TRUE, echo = FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("img/biudes2021.png")
 ```
 
@@ -231,10 +188,9 @@ class: top, left
 
 - Coleta de solo.
 
-```{r}
-
-```
-
+<img width="32%" src="img/WhatsApp Image 2021-07-15 at 17.06.39.jpeg"/>
+<img width="32%" src="img/WhatsApp Image 2021-07-15 at 17.11.41.jpeg"/>
+<img width="32%" src="img/IMG_20190420_110336.jpg"/>
 
 ---
 
@@ -244,11 +200,15 @@ class: top, left
 
 **Obtenção dos *Dados remotos***
 
-- Landsat 8 OLI (Abril 2013 - Junho 2018) <https:www.earthexplorer.usgs.gov>
+- [Landsat 8 OLI (Abril 2013 - Junho 2018)](https:www.earthexplorer.usgs.gov)
 
 --
 
-- CHIRPS (mesmo período) <https://data.chc.ucsb.edu/products/CHIRPS-2.0/>.
+-  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/).
+
+```{r coisaseria2, include = TRUE, echo = FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("http://www.engesat.com.br/wp-content/uploads/Landsat-8-nas-bandas-3-2-1-PAN-processamento-FuzeGO.png")
+```
 
 ---
 class: top, left
@@ -309,24 +269,67 @@ knitr::include_graphics("img/SM7.png")
 ```
 
 ---
-class: top, left 
+class: top, left
+
+## Solo explica respostas
+
+```{r fig234345, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
+knitr::include_graphics("img/Figure_5.png")
+```
+
+---
+ 
 
 # Discussão
 
-## Respostas às flutuações na precipitação
+## Mata de galeria aumenta o greenness na estação seca;
 
-- Mata de galeria diminui o greenness na estação chuvosa;
 
-```{r}
-knitr::include_graphics()
-```
+<img width="52%" src="img/amazon_green.png"/>    
 
+---
+class:top, center
+
+### Entretanto, algumas plantas são tolerantes ao alagamento
+
+<img width="42%" src="img/flood_tolerance_1.png"/>
+<img width="52%" src="img/flood_tolerance_2.png"/> 
+
+--
+
+### Limitações na estação chuvosa
+
+<img width="32%" src="img/schongart.png"/>
+<img width="32%" src="img/leadwetness.png"/>
+<img width="32%" src="img/clouds.png"/>
+
+---
+class: top, left
+
+## Savanna não é sensível à diminuição da precipitação durante a estação seca;
+
+- Diversidade de estratégias de resistência à seca;
+
+
+- Facilitação;
+
+<img width="32%" src="img/strategy1.png"/>
+<img width="32%" src="img/strategy2.png"/>
+<img width="32%" src="img/guiga.png"/>
 
 ---
 
-- Savanna não é sensível à diminuição da precipitação durante a estação seca;
+## Mata seca passa mais sede que as outras vegetações.
 
-- Mata seca passa mais sede que as outras vegetações.
+- Estratégias diferentes permitem complementariedade de nicho;
+
+- Deciduidade depende do solo;
+
+- Ontongenia têm papel importante na estruturação da vegetação e nas respostas à seca.
+
+<img width="32%" src="img/dry for.png"/>
+<img width="32%" src="img/dry for 2.png"/>
+<img width="32%" src="img/dry for 3.png"/>
 
 ---
 class: top, left
@@ -337,9 +340,14 @@ class: top, left
 
 - Quem pode avançar sobre quem?
 
+```{r fig23434, include=TRUE, echo=FALSE, out.width="75%", fig.align='center'}
+knitr::include_graphics("img/final fig.jpeg")
+```
+
+
 ---
 
-```{r out.width='50%', fig.height=6, eval=require('leaflet'), include=TRUE, echo=FALSE, fig.align='center'}
+```{r out.width='80%', fig.height=6, eval=require('leaflet'), include=TRUE, echo=FALSE, fig.align='center'}
 library(leaflet)
 leaflet() %>% addTiles() %>% setView(-47.4, -14.0285, zoom = 9)
 ```
@@ -356,8 +364,41 @@ knitr::include_graphics("img/Figure_2.png")
 ```
 
 ---
-# Agradecimentos
+# Resultados extras
+
+### Profundidade da raiz (Fan et al 2017)
+
+```{r fig0002, include=TRUE, echo=FALSE, out.width="65%", fig.align='center'}
+knitr::include_graphics("img/root_depth.png")
+```
+
+---
+
+# Resultados extras
+
+### Profundidade do lençol (Fan et al 2017)
+
+```{r fi02, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("img/water_table_depth.png")
+```
+
+---
+
+# Resultados extras
+
+### Cobertura do dossel (densiômetro)
+
+```{r tc, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("img/SM_7.png")
+```
+
+---
+## Agradecimentos
+
 - 
--
--
--
+
+
+<img width="22%" src="http://www.fapesc.sc.gov.br/wp-content/uploads/2020/02/Logo-FAPESC-pb.png"/>
+<img width="22%" src="https://www.funbio.org.br/wp-content/themes/funbio/images/funbio-logo-min.png"/>
+<img width="30%" src="https://ipes.ufsc.br/wp-content/themes/ipes-v1/images/logotipo.png"/>
+<img width="22%" src="https://d15mvavv27jnvy.cloudfront.net//66e54aca29b651c12caa01d637d0db0d.jpg"/>
