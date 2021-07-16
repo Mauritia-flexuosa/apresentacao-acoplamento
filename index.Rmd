@@ -408,3 +408,4 @@ knitr::include_graphics("img/SM_7.png")
 
 - E a todos os coleguinhas que ajudaram em campo e em discussões no laboratório ou pela internet mesmo. =)
 
+---
