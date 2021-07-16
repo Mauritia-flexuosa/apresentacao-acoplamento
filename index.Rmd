@@ -349,9 +349,6 @@ class: top, left
 
 - Quem pode avançar sobre quem?
 
-```{r fig23434, include=TRUE, echo=FALSE, out.width="45%", fig.align='center'}
-knitr::include_graphics("img/final fig.jpeg")
-```
 
 <img width="32%" src="img/final fig.jpeg"/>
 <img width="33%" src="img/gallery1.png"/>
@@ -408,3 +405,7 @@ knitr::include_graphics("img/SM_7.png")
 <img width="22%" src="https://www.funbio.org.br/wp-content/themes/funbio/images/funbio-logo-min.png"/>
 <img width="30%" src="https://ipes.ufsc.br/wp-content/themes/ipes-v1/images/logotipo.png"/>
 <img width="22%" src="https://d15mvavv27jnvy.cloudfront.net//66e54aca29b651c12caa01d637d0db0d.jpg"/>
+
+
+- E a todos os coleguinhas que ajudaram em campo e em discussões no laboratório ou pela internet mesmo. =)
+
