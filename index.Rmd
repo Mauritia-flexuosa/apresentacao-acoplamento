@@ -175,6 +175,15 @@ knitr::include_graphics("img/Figure_1.png")
 ```
 
 ---
+# Mapa interativo pra situar o PNCV
+
+```{r out.width='80%', fig.height=6, eval=require('leaflet'), include=TRUE, echo=FALSE, fig.align='center'}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(-47.4, -14.0285, zoom = 9)
+```
+
+---
+
 
 class: top, left
 
@@ -200,9 +209,9 @@ class: top, left
 
 **Obtenção dos *Dados remotos***
 
-- [Landsat 8 OLI (Abril 2013 - Junho 2018)](https:www.earthexplorer.usgs.gov)
+- [Landsat 8 OLI (Abril 2013 - Junho 2018)](https://earthexplorer.usgs.gov/)
 
---
+
 
 -  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/).
 
@@ -290,14 +299,14 @@ knitr::include_graphics("img/Figure_5.png")
 ---
 class:top, center
 
-### Entretanto, algumas plantas são tolerantes ao alagamento
+### Algumas plantas são tolerantes ao alagamento
 
 <img width="42%" src="img/flood_tolerance_1.png"/>
 <img width="52%" src="img/flood_tolerance_2.png"/> 
 
 --
 
-### Limitações na estação chuvosa
+### ...mas há limitações na estação chuvosa
 
 <img width="32%" src="img/schongart.png"/>
 <img width="32%" src="img/leadwetness.png"/>
@@ -323,9 +332,9 @@ class: top, left
 
 - Estratégias diferentes permitem complementariedade de nicho;
 
-- Deciduidade depende do solo;
+- Deciduidade depende da fertilidade do solo;
 
-- Ontongenia têm papel importante na estruturação da vegetação e nas respostas à seca.
+- Ontogenia têm papel importante na estruturação da vegetação e nas respostas à seca.
 
 <img width="32%" src="img/dry for.png"/>
 <img width="32%" src="img/dry for 2.png"/>
@@ -340,19 +349,16 @@ class: top, left
 
 - Quem pode avançar sobre quem?
 
-```{r fig23434, include=TRUE, echo=FALSE, out.width="75%", fig.align='center'}
+```{r fig23434, include=TRUE, echo=FALSE, out.width="45%", fig.align='center'}
 knitr::include_graphics("img/final fig.jpeg")
 ```
 
+<img width="32%" src="img/final fig.jpeg"/>
+<img width="33%" src="img/gallery1.png"/>
+<img width="33%" src="img/gallery2.png"/>
 
 ---
 
-```{r out.width='80%', fig.height=6, eval=require('leaflet'), include=TRUE, echo=FALSE, fig.align='center'}
-library(leaflet)
-leaflet() %>% addTiles() %>% setView(-47.4, -14.0285, zoom = 9)
-```
-
----
 class: top, center
 
 # Resultados extras
