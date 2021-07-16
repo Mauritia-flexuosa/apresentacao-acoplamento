@@ -350,9 +350,9 @@ class: top, left
 - Quem pode avançar sobre quem?
 
 
-<img width="32%" src="img/final fig.jpeg"/>
-<img width="33%" src="img/gallery1.png"/>
-<img width="33%" src="img/gallery2.png"/>
+<img width="28%" src="img/final fig.jpeg"/>
+<img width="35%" src="img/gallery1.png"/>
+<img width="35%" src="img/gallery2.png"/>
 
 ---
 
@@ -399,7 +399,6 @@ knitr::include_graphics("img/SM_7.png")
 ## Agradecimentos
 
 - 
-
 
 <img width="22%" src="http://www.fapesc.sc.gov.br/wp-content/uploads/2020/02/Logo-FAPESC-pb.png"/>
 <img width="22%" src="https://www.funbio.org.br/wp-content/themes/funbio/images/funbio-logo-min.png"/>
