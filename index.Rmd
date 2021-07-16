@@ -1,7 +1,7 @@
 ---
 title: "Coexisting biomes in a heterogeneous landscape are alternative stable states?"
 subtitle: "Apresentação para o IPES"
-author: "Marcio Baldissera Cure - Bernardo Monteiro Flores - Rafael S. Oliveira - Marina Hirota"
+author: "Marcio Baldissera Cure - Bernardo Monteiro Flores - Rafael Silva Oliveira - Marina Hirota"
 institute: "PPG Ecologia, UFSC"
 date: "`r Sys.Date()`"
 output:
