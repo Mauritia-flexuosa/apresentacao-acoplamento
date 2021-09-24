@@ -37,11 +37,12 @@ xaringanExtra::use_broadcast()
 ```
 # Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
 
-- Funcionalidade da vegetação tropical face às mudanças globais.
+OBJETIVO GERAL: A tese tem por objetivo geral entender a resiliência da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
+
 
 - Conceito de resiliência ecológica (*Holling 1973 - Annual Review of Ecology and Systematics*)
 
-- Variável de estado funcional e não estrutural.
+- Variável de estado funcional, não estrutural.
 
 
 .center[
@@ -116,13 +117,13 @@ Hipótese: Florestas alagadas são mais resilientes à eventos de seca, mas são
 
 ---
 class: top, left
-# Capítulo I
-
-## Sob o mesmo regime de precipitação
+.center[
+## Capítulo I - Diferentes tipos de vegetação coexistindo em uma mesma paisagem tropical heterogênea são estados alternativos funcionais?
+]
 
 - __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
 
-```{r, echo = FALSE, include=TRUE, fig.cap="Staal & Flores (2015) Biogeoscience", out.width="65%", fig.align='center'}
+```{r, echo = FALSE, include=TRUE, fig.cap="Staal & Flores (2015) Biogeoscience", out.width="45%", fig.align='center'}
 knitr::include_graphics("img/staalflores.png")
 ```
 
@@ -381,7 +382,7 @@ class: top, left
 <img width="55%" src="img/water_table_depth.png"/>
 
 
---- 
+---
 class: top, left
 # Discussão
 
@@ -392,6 +393,9 @@ class: top, left
 
 ---
 class:top, center
+.left[
+# Discussão
+]
 
 ### Algumas plantas são tolerantes ao alagamento
 
@@ -444,9 +448,9 @@ class: top, left
 - Quem pode avançar sobre quem?
 
 
-<img width="28%" src="img/final fig.jpeg"/>
-<img width="35%" src="img/gallery1.png"/>
-<img width="35%" src="img/gallery2.png"/>
+<img width="35%" src="img/final fig.jpeg"/>
+<img width="30%" src="img/gallery1.png"/>
+<img width="30%" src="img/gallery2.png"/>
 
 ---
 
@@ -457,6 +461,10 @@ class: top, center
 - Tipos de vegetação são diferentes funcionalmente;
 
 - Mas não são estados alternativos funcionais na escala de paisagem, pois não estão nas mesmas condições de solo.
+
+```{r, include=TRUE, echo=FALSE, fig.align='center', out.width="80%"}
+ knitr::include_graphics("img/chave alternative stable states.png")
+```
 
 
 ---
