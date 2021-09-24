@@ -1,6 +1,6 @@
 ---
-title: "Coexisting biomes in a heterogeneous landscape are alternative stable states?"
-subtitle: "Apresentação para o IPES"
+title: "Are coexisting biomes in a heterogeneous tropical landscape alternative stable states?"
+subtitle: "Qualificação de doutorado"
 author: "Marcio Baldissera Cure - Bernardo Monteiro Flores - Rafael Silva Oliveira - Marina Hirota"
 institute: "PPG Ecologia, UFSC"
 date: "`r Sys.Date()`"
@@ -14,7 +14,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: top, center
+class: top, left
 
 ```{r xaringan-logo, echo=FALSE, include=TRUE}
 xaringanExtra::use_logo(image_url = "https://ipes.ufsc.br/wp-content/themes/ipes-v1/images/logotipo.png")
@@ -36,17 +36,93 @@ xaringanExtra::use_webcam()
 xaringanExtra::use_broadcast()
 ```
 
+# Resiliência
+
+
+- Parte do princípio da existência de estados alternativos de funcionamento;
+
+-  Estados alternativos podem ocorrer sob as mesma
+s condições ambientais;
+
+- Variável de estado (característica estrutural ou funcional que dá identidade ao sistema) tem resposta não linear à mudanças nas condições do sistema.
+
+--
+
+- Capacidade que os sistemas possuem de absorver impactos antes de colapsar para um estado alternativo de funcionamento
+
+- Capacidade de auto organização.
+
+.center[
+*Holling 1973 - Annual Review of Ecology and Systematics*
+]
+
+---
 ## Savanas e Florestas na região tropical
 
-São estados alternativos em relação à estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA
+- São estados alternativos em termos de estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA (Hirota et al 2011 - Science). 
 
 ```{r figure1, include=TRUE, echo=FALSE, out.width="60%", fig.align='center', fig.pos='bottom', fig.cap="Hirota et al (2011) Science"}
 knitr::include_graphics("img/hirota.jpg")
 ```
+---
+## Outra forma de identificar os mesmos estados alternativos
+
+*Hirota et al 2011 - Science*
+
+---
+
+# Objetivo geral da Tese
+
+## A tese tem por objetivo geral entender a resiliência da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
 
 ---
 class: top, left
 
+# Relação da estrutura com a funcionalidade
+
+- Estudos sugerem que a funcionalidade da vegetação seja correspondente à estrutura. (*Xu et al 2015; Xu et al 2016; Xu et al 2018.*)
+
+--
+
+## CAPÍTULO I: 
+
+Pergunta: Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais?
+
+Hipótese: São estados alternativos funcionais se: **(a)** forem funcionalmente diferentes e **(b)** se estiverem sob mesmas condições de solo e de disponibilidade de água.
+
+---
+class: top, left
+
+# Funcionalidade depende da amplitude de condições
+
+- Há indícios de que Florestas e savannas submetidos à condições mais variáveis sejam mais resilientes (*Ciemer et al 2019 - Nature Geoscience*).
+
+--
+
+## Capítulo II
+
+- As respostas fenológicas (acoplamento, sd do evi, média do evi, amplitude do evi) dos tipos de vegetação na escala continental dependem do regime de precipitação (MAP, MSI, cv) como a estrutura do dossel depende?
+
+---
+class: top, left
+
+# Resiliência depende dos atributos funcionais
+
+- Funcionalidade e a resposta da vegetação à perturbações depende dos atributos funcionais (*Barros et al 2019 - New Phytologist*).
+
+- E que diferentes tipos de florestas com atributos diferentes podem possuir funcionamento diferente (*Dexter et al 2018 - Frontiers in Ecology and Evolution ; Christoffersen et al 2016 - Geoscientific Model Development*).
+
+--
+
+## Capítulo III
+
+
+Pergunta: A resiliência de savanas e de matas de galeria ao fogo e à seca são determinadas pela hidrologia, pela riqueza de espécies, pela média ou pela variação da comunidade nos atributos funcionais relacionados com resistência ao fogo e à seca?
+
+Hipótese: Florestas alagadas são mais resilientes à eventos de seca, mas são menos resilientes ao fogo. A resiliência está relacionada com a variação de atributos funcionais da comunidade e não necesssariamente à riqueza de espécies.
+
+---
+class: top, left
 ## Sob o mesmo regime de precipitação
 
 - __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
@@ -139,7 +215,6 @@ class: top, left
 ```{r coisaseria, include = TRUE, echo = FALSE, out.width="60%", fig.align="center"}
 knitr::include_graphics("img/biudes2021.png")
 ```
-
 
 ---
 class: top, left
