@@ -37,13 +37,19 @@ xaringanExtra::use_broadcast()
 ```
 # Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
 
-- Estabilidade da funcionalidade da vegetação tropical face às mudanças globais.
+- Funcionalidade da vegetação tropical face às mudanças globais.
 
 - Conceito de resiliência ecológica (*Holling 1973 - Annual Review of Ecology and Systematics*)
 
 - Variável de estado funcional e não estrutural.
 
+
+.center[
+<img width = "100%" src="img/formas de mudanças.png"/>
+]
+
 ---
+
 ## Savanas e Florestas na região tropical
 
 - São estados alternativos em termos de estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA (*Hirota et al 2011 - Science*). 
@@ -171,9 +177,9 @@ class: top, left
 
 
 <img width="32%" src="img/WhatsApp Image 2021-04-22 at 11.20.44.jpeg"/>
-<img width="33%" src="https://www.embrapa.br/image/journal/article?img_id=43816247&t=1559587291923"/>
-<img width="33%" src="https://www.embrapa.br/image/journal/article?img_id=43816249&t=1559587292941"/>
-Da esquerda para a direita, respectivamente, imagem de: Sr Gerson (proprietário da área); Bruno Walter (EMBRAPA); José Felipe Ribeiro (EMBRAPA)
+<img width="33%" src="img/MS1.jpeg"/>
+<img width="33%" src="img/ms2.jpeg"/>
+Da esquerda para a direita, respectivamente, imagem de: Sr Gerson (proprietário da área); MBC; André Giles
 
 ---
 class: top, left
