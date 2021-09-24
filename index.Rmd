@@ -116,6 +116,8 @@ Hipótese: Florestas alagadas são mais resilientes à eventos de seca, mas são
 
 ---
 class: top, left
+# Capítulo I
+
 ## Sob o mesmo regime de precipitação
 
 - __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
