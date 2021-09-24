@@ -35,58 +35,39 @@ xaringanExtra::use_webcam()
 ```{r broadcast, echo=FALSE}
 xaringanExtra::use_broadcast()
 ```
+# Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
 
-# Resiliência
+- Estabilidade da funcionalidade da vegetação tropical face às mudanças globais.
 
+- Conceito de resiliência ecológica (*Holling 1973 - Annual Review of Ecology and Systematics*)
 
-- Parte do princípio da existência de estados alternativos de funcionamento;
-
--  Estados alternativos podem ocorrer sob as mesma
-s condições ambientais;
-
-- Variável de estado (característica estrutural ou funcional que dá identidade ao sistema) tem resposta não linear à mudanças nas condições do sistema.
-
---
-
-- Capacidade que os sistemas possuem de absorver impactos antes de colapsar para um estado alternativo de funcionamento
-
-- Capacidade de auto organização.
-
-.center[
-*Holling 1973 - Annual Review of Ecology and Systematics*
-]
+- Variável de estado funcional e não estrutural.
 
 ---
 ## Savanas e Florestas na região tropical
 
-- São estados alternativos em termos de estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA (Hirota et al 2011 - Science). 
+- São estados alternativos em termos de estrutura da vegetação (cobertura do dossel) determinados parcialmente pela PMA (*Hirota et al 2011 - Science*). 
 
 ```{r figure1, include=TRUE, echo=FALSE, out.width="60%", fig.align='center', fig.pos='bottom', fig.cap="Hirota et al (2011) Science"}
 knitr::include_graphics("img/hirota.jpg")
 ```
 ---
-## Outra forma de identificar os mesmos estados alternativos
+class: top, center
 
-*Hirota et al 2011 - Science*
+# Estrutura *vs*  funcionalidade
 
----
+- Estudos sugerem que o funcionamento da vegetação seja correspondente à estrutura. (*Xu et al 2015; Xu et al 2016; Xu et al 2018.*)
 
-# Objetivo geral da Tese
+- Presença de matas secas, além das matas de galeria sob as mesmas condições ambientais (*Dexter et al 2018*). 
 
-## A tese tem por objetivo geral entender a resiliência da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
-
----
-class: top, left
-
-# Relação da estrutura com a funcionalidade
-
-- Estudos sugerem que a funcionalidade da vegetação seja correspondente à estrutura. (*Xu et al 2015; Xu et al 2016; Xu et al 2018.*)
+.center[
+<img width="22%" src="img/xu2016.png"/>
+<img width="37%" src="https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg"/>
+]
 
 --
-
-## CAPÍTULO I: 
-
-Pergunta: Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais?
+### CAPÍTULO I: 
+ Pergunta: Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais?
 
 Hipótese: São estados alternativos funcionais se: **(a)** forem funcionalmente diferentes e **(b)** se estiverem sob mesmas condições de solo e de disponibilidade de água.
 
@@ -97,18 +78,24 @@ class: top, left
 
 - Há indícios de que Florestas e savannas submetidos à condições mais variáveis sejam mais resilientes (*Ciemer et al 2019 - Nature Geoscience*).
 
+***
+
+<img width="100%" src="img/ciemer_fig2.png"/>
+
 --
 
-## Capítulo II
+### Capítulo II
 
-- As respostas fenológicas (acoplamento, sd do evi, média do evi, amplitude do evi) dos tipos de vegetação na escala continental dependem do regime de precipitação (MAP, MSI, cv) como a estrutura do dossel depende?
+- Pergunta: As respostas fenológicas (acoplamento, sd do evi, média do evi, amplitude do evi) dos tipos de vegetação na escala continental dependem do regime de precipitação (MAP, MSI, cv) como a estrutura do dossel depende?
+
+- Hipótese: As respostas dos diferentes tipos de vegetação mudam com mudanças no regime de precipitação.
 
 ---
 class: top, left
 
 # Resiliência depende dos atributos funcionais
 
-- Funcionalidade e a resposta da vegetação à perturbações depende dos atributos funcionais (*Barros et al 2019 - New Phytologist*).
+- Funcionalidade e a resposta da vegetação à perturbações depende dos atributos funcionais selecionados para aquele regime específico de variação nas condições (*Barros et al 2019 - New Phytologist*).
 
 - E que diferentes tipos de florestas com atributos diferentes podem possuir funcionamento diferente (*Dexter et al 2018 - Frontiers in Ecology and Evolution ; Christoffersen et al 2016 - Geoscientific Model Development*).
 
@@ -117,7 +104,7 @@ class: top, left
 ## Capítulo III
 
 
-Pergunta: A resiliência de savanas e de matas de galeria ao fogo e à seca são determinadas pela hidrologia, pela riqueza de espécies, pela média ou pela variação da comunidade nos atributos funcionais relacionados com resistência ao fogo e à seca?
+Pergunta: A resiliência de savanas e de matas de galeria ao fogo e à seca é determinada pela hidrologia, pela riqueza de espécies, pela média ou pela variação da comunidade nos atributos funcionais relacionados com resistência ao fogo e à seca?
 
 Hipótese: Florestas alagadas são mais resilientes à eventos de seca, mas são menos resilientes ao fogo. A resiliência está relacionada com a variação de atributos funcionais da comunidade e não necesssariamente à riqueza de espécies.
 
@@ -246,7 +233,7 @@ class: top, left
 - Diferentes tipos de vegetação coexistindo na mesma paisagem e sob o mesmo regime de chuvas.
 
 ```{r fig1, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/Figure_1.png")
+knitr::include_graphics("img/Figure_1_NOVA.png")
 ```
 
 ---
@@ -290,7 +277,7 @@ class: top, left
 -  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/).
 
 ```{r coisaseria2, include = TRUE, echo = FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("http://www.engesat.com.br/wp-content/uploads/Landsat-8-nas-bandas-3-2-1-PAN-processamento-FuzeGO.png")
+knitr::include_graphics("https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/Landsat_8_%28LDCM%29_Satellite_over_Earth%2C%20Wiki%20Commons.jpg")
 ```
 
 ---
@@ -318,15 +305,19 @@ class: top, left
 
 - Teste de Kruskal-Wallis e teste a posteriori de Nemenyi para testar diferenças entre as fitofisionomias.
 
+--
+
+- Teste de Mann-Kendall para medir a tendência do EVI2 na estação seca.
+
 ---
 class: top, left
 
 # Resultados
 
-**Estatística descritiva do EVI2**
+**Comportamento do EVI2**
 
-```{r fig3, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/Figure_3.png")
+```{r fig3, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
+knitr::include_graphics("img/Figure_2.png")
 ```
 
 ---
@@ -337,7 +328,7 @@ class: top, left
 **Acoplamento e atraso na resposta**
 
 ```{r fig4, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/Figure_4.png")
+knitr::include_graphics("img/Figure_3_NOVA.png")
 ```
 
 ---
@@ -345,24 +336,45 @@ class: top, left
 
 # Resultados
 
-**Biomas agrupados por composição do solo**
+**Tendência na estação seca**
 
-```{r fig5, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/SM7.png")
+```{r fig1234567, include=TRUE, echo=FALSE, out.width="65%", fig.align='center'}
+knitr::include_graphics("img/Figure_4_NOVA.png")
+```
+---
+class: top, left
+
+# Resultados
+
+**Condições abióticas locais: solo**
+
+
+```{r figSM6, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
+knitr::include_graphics("img/SM6.png")
 ```
 
 ---
 class: top, left
+# Resultados
 
-## Solo explica respostas
+**Solo explica respostas**
 
 ```{r fig234345, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
 knitr::include_graphics("img/Figure_5.png")
 ```
 
 ---
- 
+class: top, left
+# Resultados
 
+**Disponibilidade de água**
+
+<img width="42%" src="img/root_depth.png"/>
+<img width="55%" src="img/water_table_depth.png"/>
+
+
+--- 
+class: top, left
 # Discussão
 
 ## Mata de galeria aumenta o greenness na estação seca;
@@ -388,17 +400,17 @@ class:top, center
 
 ---
 class: top, left
+# Discussão
 
 ## Savanna não é sensível à diminuição da precipitação durante a estação seca;
 
 - Diversidade de estratégias de resistência à seca;
-
-
+- Acesso à água;
 - Facilitação;
 
 <img width="32%" src="img/strategy1.png"/>
-<img width="32%" src="img/strategy2.png"/>
-<img width="32%" src="img/guiga.png"/>
+<img width="33%" src="img/strategy2.png"/>
+<img width="33%" src="img/guiga.png"/>
 
 ---
 
@@ -432,54 +444,23 @@ class: top, left
 
 class: top, center
 
-# Resultados extras
+# Conclusão
 
-## Comportamento da série temporal de EVI2 e precipitação
+- Tipos de vegetação são diferentes funcionalmente;
 
-```{r fig2, include=TRUE, echo=FALSE, out.width="75%", fig.align='center'}
-knitr::include_graphics("img/Figure_2.png")
-```
+- Mas não são estados alternativos funcionais na escala de paisagem, pois não estão nas mesmas condições de solo.
 
----
-# Resultados extras
-
-### Profundidade da raiz (Fan et al 2017)
-
-```{r fig0002, include=TRUE, echo=FALSE, out.width="65%", fig.align='center'}
-knitr::include_graphics("img/root_depth.png")
-```
-
----
-
-# Resultados extras
-
-### Profundidade do lençol (Fan et al 2017)
-
-```{r fi02, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
-knitr::include_graphics("img/water_table_depth.png")
-```
-
----
-
-# Resultados extras
-
-### Cobertura do dossel (densiômetro)
-
-```{r tc, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
-knitr::include_graphics("img/SM_7.png")
-```
 
 ---
 ## Agradecimentos
 
-- 
 
 <img width="22%" src="http://www.fapesc.sc.gov.br/wp-content/uploads/2020/02/Logo-FAPESC-pb.png"/>
 <img width="22%" src="https://www.funbio.org.br/wp-content/themes/funbio/images/funbio-logo-min.png"/>
 <img width="30%" src="https://ipes.ufsc.br/wp-content/themes/ipes-v1/images/logotipo.png"/>
 <img width="22%" src="https://d15mvavv27jnvy.cloudfront.net//66e54aca29b651c12caa01d637d0db0d.jpg"/>
 
+****
 
 - E a todos os coleguinhas que ajudaram em campo e em discussões no laboratório ou pela internet mesmo. =)
 
----
