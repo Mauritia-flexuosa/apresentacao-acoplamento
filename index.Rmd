@@ -486,7 +486,8 @@ class: top, left
 
 - Resiliência depende do balanço entre feedbacks positivos e feedbacks negativos.
 
-___
+***
+
 ### **Pergunta:** Qual a relação dos atributos funcionais da vegetação neotropical com os mechanismos de feedbacks que governam a dinâmica de florestas e savannas?
 ***
 ### **Hipótese:** Os atributos funcionais são fundamentais para entender a resiliência de florestas e savannas às mudanças graduais das condições ambientais e às perturbações pontuais.
