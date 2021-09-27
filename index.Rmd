@@ -37,10 +37,35 @@ xaringanExtra::use_broadcast()
 ```
 ## Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
 
-OBJETIVO GERAL: A tese tem por objetivo geral entender a resiliência da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
+**OBJETIVO GERAL:** A tese tem por objetivo geral entender a <i> <u >resiliência </i> </u> da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
 
+--
+## Organização da tese
 
-- Conceito de resiliência ecológica (*Holling 1973 - Annual Review of Ecology and Systematics*)
+Cap I. Entender a relação dos atributos funcionais da vegetação neotropical com os mechanismos de feedbacks que governam a dinâmica de florestas e savannas.
+
+Cap II. Testar se florestas e savannas são estados alternativos funcionais <u> sob o mesmo regime de precipitação. </u> (Escala da paisagem)
+
+Cap III. Testar se florestas e savannas são estados alternativos funcionais <u> ao longo de um gradiente de sazonalidade. </u> (Escala continental)
+---
+## Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
+
+OBJETIVO GERAL: A tese tem por objetivo geral entender a <u> <i> resiliência </u> </i> da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
+
+## Organização da tese
+
+Cap I. Entender a relação dos atributos funcionais da vegetação neotropical com os mechanismos de feedbacks que governam a dinâmica de florestas e savannas.
+
+**Cap II. Testar se florestas e savannas são estados alternativos funcionais <u> sob o mesmo regime de precipitação. </u> (Escala da paisagem)**
+
+Cap III. Testar se florestas e savannas são estados alternativos funcionais <u> ao longo de um gradiente de sazonalidade. </u> (Escala continental)
+
+---
+# Resiliência ecológica
+
+- Conceito (*Holling 1973 - Annual Review of Ecology and Systematics*)
+
+- Supõe a existência de estados alternativos de funcionamento
 
 - Variável de estado funcional, não estrutural.
 
@@ -58,67 +83,8 @@ OBJETIVO GERAL: A tese tem por objetivo geral entender a resiliência da vegeta�
 knitr::include_graphics("img/hirota.jpg")
 ```
 ---
-class: top, center
-
-# Estrutura *vs*  funcionalidade
-
-- Estudos sugerem que o funcionamento da vegetação seja correspondente à estrutura. (*Xu et al 2015; Xu et al 2016; Xu et al 2018.*)
-
-- Presença de matas secas, além das matas de galeria sob as mesmas condições ambientais (*Dexter et al 2018*). 
-
-.center[
-<img width="22%" src="img/xu2016.png"/>
-<img width="37%" src="https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg"/>
-]
-
---
-### CAPÍTULO I: 
- Pergunta: Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais?
-
-Hipótese: São estados alternativos funcionais se: **(a)** forem funcionalmente diferentes e **(b)** se estiverem sob mesmas condições de solo e de disponibilidade de água.
-
----
 class: top, left
-
-# Funcionalidade depende da amplitude de condições
-
-- Há indícios de que Florestas e savannas submetidos à condições mais variáveis sejam mais resilientes (*Ciemer et al 2019 - Nature Geoscience*).
-
-***
-
-<img width="100%" src="img/ciemer_fig2.png"/>
-
---
-
-### Capítulo II
-
-- Pergunta: As respostas fenológicas (acoplamento, sd do evi, média do evi, amplitude do evi) dos tipos de vegetação na escala continental dependem do regime de precipitação (MAP, MSI, cv) como a estrutura do dossel depende?
-
-- Hipótese: As respostas dos diferentes tipos de vegetação mudam com mudanças no regime de precipitação.
-
----
-class: top, left
-
-# Resiliência depende dos atributos funcionais
-
-- Funcionalidade e a resposta da vegetação à perturbações depende dos atributos funcionais selecionados para aquele regime específico de variação nas condições (*Barros et al 2019 - New Phytologist*).
-
-- E que diferentes tipos de florestas com atributos diferentes podem possuir funcionamento diferente (*Dexter et al 2018 - Frontiers in Ecology and Evolution ; Christoffersen et al 2016 - Geoscientific Model Development*).
-
---
-
-## Capítulo III
-
-
-Pergunta: A resiliência de savanas e de matas de galeria ao fogo e à seca é determinada pela hidrologia, pela riqueza de espécies, pela média ou pela variação da comunidade nos atributos funcionais relacionados com resistência ao fogo e à seca?
-
-Hipótese: Florestas alagadas são mais resilientes à eventos de seca, mas são menos resilientes ao fogo. A resiliência está relacionada com a variação de atributos funcionais da comunidade e não necesssariamente à riqueza de espécies.
-
----
-class: top, left
-.center[
-## Capítulo I - Diferentes tipos de vegetação coexistindo em uma mesma paisagem tropical heterogênea são estados alternativos funcionais?
-]
+# Sob o mesmo regime de precipitação
 
 - __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
 
@@ -126,10 +92,25 @@ class: top, left
 knitr::include_graphics("img/staalflores.png")
 ```
 
-  *Ferreira et al (2007); Staver et al (2011); Dantas et al (2016); Veenendaal et al (2018); Pausas et al (2020)*
+  *Ferreira et al (2007); Dantas et al (2016); Veenendaal et al (2018); Pausas et al (2020); Bernardino et al (2021)*
 
 ---
+class: top, center
 
+# Estrutura *vs*  funcionalidade
+
+- Estudos sugerem que o funcionamento da vegetação seja correspondente à estrutura. (*Dantas et al 2015; Xu et al 2016; Bernardino et al 2021*)
+
+- Florestas e savannas são estados alternativos funcionais controlados por fogo (Área basal, BT, SLA, WD,  como proxy da funcionalidade) (*Dantas et al 2015; Bernardino et al 2021*).
+
+
+.center[
+<img width="35%" src="img/xu2016.png"/>
+__
+<img width = "20%" src = "img/dantas20215_fig_1.png"/>
+]
+
+---
 class: top, left
 
 ## Cerrado *stricto sensu*
@@ -194,11 +175,11 @@ class: top, left
 
 - Por possuirem características funcionais diferentes, também interagem com o ambiente de forma diferente.
 
-```{r, echo = FALSE, fig.align='center'}
+```{r, echo = FALSE, fig.align='center', out.width="55%"}
 knitr::include_graphics("https://beduka.com/blog/wp-content/uploads/2019/03/Qual-a-import%C3%A2ncia-dos-biomas-brasileiros.jpg")
 ```
 
-*Charles-Dominique et al (2015); Yin et al (2014); Berdugo et al (2017); Staver et al (2020)*
+*Tilman (2001); Charles-Dominique et al (2015); Yin et al (2014); Berdugo et al (2017); Staver et al (2020)*
 
 ---
 class: top, left
@@ -212,24 +193,18 @@ knitr::include_graphics("img/biudes2021.png")
 ```
 
 ---
-class: top, left
-
-# Objetivo
-
-- Testar se Cerrado stricto senso, matas de galeria e  matas secas sob um mesmo regime de precipitação são estados alternativos funcionais.
+---
+## CAPÍTULO I: 
+### **Pergunta:** Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais? 
 
 --
+***
 
+### **Hipótese:** São estados alternativos funcionais se: **(a)** forem funcionalmente diferentes e **(b)** se estiverem sob mesmas condições de solo e de disponibilidade de água.
 
-# Hipótese
-
-- As fisionomias vegetais têm funcionamento diferente, mas só podem ser estados alternativos se ocorrerem nas mesmas condições locais ou se o seu funcionamento retroalimentar estas condições.
-
---
-
-```{r, include=TRUE, echo=FALSE, fig.align='center', out.width="70%"}
- knitr::include_graphics("img/chave alternative stable states.png")
-```
+.center[
+<img width="85%" src = "img/chave alternative stable states.png"  />
+]
 
 
 ---
@@ -260,9 +235,9 @@ class: top, left
 
 **Obtenção dos *Dados de campo***
 
-- 10 parcelas em cada fitofisionomia;
+- 10 parcelas em cada fitofisionomia (200 m² cada);
 
-- cada uma com 200 m²;
+- Cobertura do dossel usando o densiômetro florestal côncavo;
 
 - Coleta de solo.
 
@@ -279,8 +254,6 @@ class: top, left
 **Obtenção dos *Dados remotos***
 
 - [Landsat 8 OLI (Abril 2013 - Junho 2018)](https://earthexplorer.usgs.gov/)
-
-
 
 -  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/).
 
@@ -299,7 +272,7 @@ class: top, left
 
 - Magnitude do acoplamento = valor absoluto do acoplamento (*sem o sinal*);
 
-- Cálculo das respostas da vegetação (acoplamento) *com atraso* (**lag**) de zero a seis meses;
+- Atraso (**lag**) na maior resposta (acoplamento máximo) da vegetação de zero a seis meses;
 
 --
 
@@ -307,7 +280,7 @@ class: top, left
 
 --
 
-- Regressão linear simples: Acoplamento ~ atributos do solo/PC1;
+- Regressão linear simples: acoplamento ~ atributos do solo/PC1;
 
 --
 
@@ -425,7 +398,7 @@ class: top, left
 
 ---
 
-## Mata seca passa mais sede que as outras vegetações.
+## Mata seca é mais responsiva que as outras vegetações.
 
 - Estratégias diferentes permitem complementariedade de nicho;
 
@@ -446,25 +419,48 @@ class: top, left
 
 - Quem pode avançar sobre quem?
 
-
 <img width="35%" src="img/final fig.jpeg"/>
 <img width="30%" src="img/gallery1.png"/>
 <img width="30%" src="img/gallery2.png"/>
 
 ---
+class: top, left
+.center[
+# Conclusão]
+___
 
-class: top, center
+### 1. Tipos de vegetação são diferentes funcionalmente;
 
-# Conclusão
+***
 
-- Tipos de vegetação são diferentes funcionalmente;
-
-- Mas não são estados alternativos funcionais na escala de paisagem, pois não estão nas mesmas condições de solo.
+### 2. Mas não são estados alternativos funcionais na escala de paisagem, pois não estão nas mesmas condições de solo nem de disponibilidade de água.
 
 ```{r, include=TRUE, echo=FALSE, fig.align='center', out.width="80%"}
  knitr::include_graphics("img/chave alternative stable states.png")
 ```
 
+---
+class: top, left
+##  __Tá, mas qual a novidade?__
+
+## Novidade metodológica
+
+
+### A funcionalidade não é medida por atributos funcionais e sim pela resposta à oscilações na chuva.
+
+***
+
+### Proxy de funcionalidade capta resposta da vegetação ao longo do tempo;
+
+***
+
+### Não há necessidade de se criar um gradiente de condições artificial ao se utilizar um gradiente espacial de alguma condição para representar sua variação no tempo.
+
+***
+
+## Contribuição ao arcabouço de conhecimento
+
+### Mostramos que matas secas, matas de galeria e savanas são funcionalmente diferetes e que não são estados alternativos funcionais sob o mesmo regime de precipitação.
 
 ---
 ## Agradecimentos
@@ -477,5 +473,38 @@ class: top, center
 
 ****
 
-- E a todos os coleguinhas que ajudaram em campo e em discussões no laboratório ou pela internet mesmo. =)
+# E a todos os coleguinhas que ajudaram em campo e em discussões no laboratório ou pela internet mesmo. =)
+
+---
+class: top, left
+
+# Capítulo I
+
+- Interação da vegetação com seu ambiente depende dos atributos funcionais;
+
+- Estas interações vão determinar os mecanismos de feedback que dão autoorganização aos sistemas;
+
+- Resiliência depende do balanço entre feedbacks positivos e feedbacks negativos.
+
+___
+### **Pergunta:** Qual a relação dos atributos funcionais da vegetação neotropical com os mechanismos de feedbacks que governam a dinâmica de florestas e savannas?
+***
+### **Hipótese:** Os atributos funcionais são fundamentais para entender a resiliência de florestas e savannas às mudanças graduais das condições ambientais e às perturbações pontuais.
+---
+class: top, left
+
+# Capítulo III
+
+- Há indícios de que Florestas e savannas submetidos à condições mais variáveis sejam mais resilientes (*Ciemer et al 2019 - Nature Geoscience*).
+
+
+***
+
+<img width="100%" src="img/ciemer_fig2.png"/>
+
+--
+
+### **Pergunta:** As respostas fenológicas (acoplamento, sd do evi, média do evi, amplitude do evi) dos tipos de vegetação na escala continental dependem do regime de precipitação (MAP, MSI, cv) como a estrutura do dossel depende?
+***
+### **Hipótese:** As respostas dos diferentes tipos de vegetação mudam com mudanças no regime de precipitação.
 
