@@ -193,7 +193,6 @@ knitr::include_graphics("img/biudes2021.png")
 ```
 
 ---
----
 ## CAPÍTULO I: 
 ### **Pergunta:** Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais? 
 
