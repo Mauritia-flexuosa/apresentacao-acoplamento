@@ -50,7 +50,7 @@ Cap III. Testar se florestas e savannas são estados alternativos funcionais <u>
 ---
 ## Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical
 
-OBJETIVO GERAL: A tese tem por objetivo geral entender a <u> <i> resiliência </u> </i> da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
+**OBJETIVO GERAL**: A tese tem por objetivo geral entender a <u> <i> resiliência </u> </i> da vegetação neotropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação.
 
 ## Organização da tese
 
