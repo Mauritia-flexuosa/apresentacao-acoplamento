@@ -72,6 +72,8 @@ Cap III. Testar se florestas e savannas são estados alternativos funcionais <u>
 
 .center[
 <img width="63%" src="https://www.researchgate.net/publication/327634844/figure/fig2/AS:670575961833474@1536889176130/The-theoretical-ball-and-cup-diagram-used-to-depict-ecological-resilience-as-introduced.png"/>
+
+*Keane et al 2018 - Ecosphere*
 ]
 ---
 
@@ -359,9 +361,9 @@ class: top, left
 
 ## Mata de galeria aumenta o greenness na estação seca;
 
-
-<img width="52%" src="img/amazon_green.png"/>    
-
+.center[
+<img width="50%" src="img/amazon_green.png"/>    
+]
 ---
 class:top, center
 .left[
