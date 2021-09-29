@@ -226,7 +226,7 @@ class: top, left
 - Diferentes tipos de vegetação coexistindo na mesma paisagem e sob o mesmo regime de chuvas.
 
 .center[
-<img width="85%" src="img/Figure_1_NOVA.png"/>
+<img width="83%" src="img/Figure_1_NOVA.png"/>
 ]
 
 ---
@@ -472,8 +472,8 @@ class: top, left
 - Quem pode avançar sobre quem?
 
 <img width="35%" src="img/final fig.jpeg"/>
-<img width="30%" src="img/gallery1.png"/>
-<img width="30%" src="img/gallery2.png"/>
+<img width="55%" src="img/gallery1.png"/>
+<img width="55%" src="img/gallery2.png"/>
 
 ---
 class: top, left
