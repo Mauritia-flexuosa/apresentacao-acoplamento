@@ -90,10 +90,10 @@ class: top, left
 
 - __Savannas__ e __florestas__ dividem a mesma paisagem e sua distribuição é determinada pelo regime de fogo, disponibilidade de água e características do solo.
 
-```{r, echo = FALSE, include=TRUE, fig.cap="Staal & Flores (2015) Biogeoscience", out.width="45%", fig.align='center'}
-knitr::include_graphics("img/staalflores.png")
-```
-
+.center[
+<img width="74%" src="img/staalflores.png"/>
+  ]
+  
   *Ferreira et al (2007); Dantas et al (2016); Veenendaal et al (2018); Pausas et al (2020); Bernardino et al (2021)*
 
 ---
@@ -109,7 +109,7 @@ class: top, center
 .center[
 <img width="35%" src="img/xu2016.png"/>
 __
-<img width = "20%" src = "img/dantas20215_fig_1.png"/>
+<img width = "20%" src="img/dantas20215_fig_1.png"/>
 ]
 
 ---
@@ -147,11 +147,11 @@ Fotos de MBC (2019)
 
 - Além das savannas e das florestas úmidas, também existem as matas secas. 
 
-```{r figure3567, include=TRUE, echo=FALSE, out.width="60%", fig.align='center', fig.pos='bottom', fig.cap="Dexter et al (2018) Front. Ecol. Evol."}
 
-knitr::include_graphics("https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg")
+<img width="45%" src="https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg"/>
+<img width="49%" src="img/tree cover.png"/>
 
-```
+- Fisionomias com cobertura do dossel acima de 60% são consideradas **florestas**.
 
 ---
 class: top, left
@@ -175,9 +175,9 @@ class: top, left
 - Os diferentes tipos de vegetação possuem composição de espécies particulares e, portanto, características funcionais diferentes;
 
 
-- Por possuirem características funcionais diferentes, também interagem com o ambiente de forma diferente.
+- Por possuírem características funcionais diferentes, também interagem com o ambiente de forma diferente.
 
-```{r, echo = FALSE, fig.align='center', out.width="55%"}
+```{r, echo = FALSE, fig.align='center', out.width="60%"}
 knitr::include_graphics("https://beduka.com/blog/wp-content/uploads/2019/03/Qual-a-import%C3%A2ncia-dos-biomas-brasileiros.jpg")
 ```
 
@@ -195,7 +195,7 @@ knitr::include_graphics("img/biudes2021.png")
 ```
 
 ---
-## CAPÍTULO I: 
+## CAPÍTULO II: 
 ### **Pergunta:** Mata seca, mata de galeria e savanas sob um mesmo regime de precipitação são estados alternativos funcionais? 
 
 --
@@ -209,19 +209,8 @@ knitr::include_graphics("img/biudes2021.png")
 
 
 ---
-class: top, left
-
 # Métodos
-*** Local do estudo***
-
-- Diferentes tipos de vegetação coexistindo na mesma paisagem e sob o mesmo regime de chuvas.
-
-```{r fig1, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/Figure_1_NOVA.png")
-```
-
----
-# Mapa interativo pra situar o PNCV
+## Local de estudo
 
 ```{r out.width='80%', fig.height=6, eval=require('leaflet'), include=TRUE, echo=FALSE, fig.align='center'}
 library(leaflet)
@@ -229,7 +218,18 @@ leaflet() %>% addTiles() %>% setView(-47.4, -14.0285, zoom = 9)
 ```
 
 ---
+class: top, left
 
+# Métodos
+## Local de estudo
+
+- Diferentes tipos de vegetação coexistindo na mesma paisagem e sob o mesmo regime de chuvas.
+
+.center[
+<img width="85%" src="img/Figure_1_NOVA.png"/>
+]
+
+---
 class: top, left
 
 # Métodos
@@ -254,9 +254,9 @@ class: top, left
 
 **Obtenção dos *Dados remotos***
 
-- [Landsat 8 OLI (Abril 2013 - Junho 2018)](https://earthexplorer.usgs.gov/)
+- [Landsat 8 OLI (Abril 2013 - Junho 2018)](https://earthexplorer.usgs.gov/): EVI2
 
--  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/).
+-  [CHIRPS](https://data.chc.ucsb.edu/products/CHIRPS-2.0/): precipitação
 
 ```{r coisaseria2, include = TRUE, echo = FALSE, out.width="70%", fig.align="center"}
 knitr::include_graphics("https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/Landsat_8_%28LDCM%29_Satellite_over_Earth%2C%20Wiki%20Commons.jpg")
@@ -295,12 +295,62 @@ class: top, left
 class: top, left
 
 # Resultados
+**Precipitação**
 
-**Comportamento do EVI2**
+.center[
+<img width="113%" src="img/prec jan1981-jun2018.png" />
+]
+---
+class: top, left
 
-```{r fig3, include=TRUE, echo=FALSE, out.width="70%", fig.align='center'}
-knitr::include_graphics("img/Figure_2.png")
-```
+# Resultados
+
+Comportamento do EVI2: **Mata seca**
+
+.center[
+<img width="100%" src="img/evi2 dry forest.png" />
+]
+
+---
+class: top, left
+
+# Resultados
+
+Comportamento do EVI2: **Mata de galeria**
+
+.center[
+<img width="100%" src="img/evi2 gallery forest.png" />
+]
+
+---
+class: top, left
+
+# Resultados
+
+Comportamento do EVI2: **Savanna**
+
+.center[
+<img width="100%" src="img/evi2 savanna.png" />
+]
+---
+class: top, left
+
+# Resultados
+**Oscilações do EVI2**
+
+.center[
+<img width="100%" src="img/smoothed evi2 with precipitation.png" />
+]
+---
+class: top, left
+
+# Resultados
+
+**Estatística descritiva do EVI2**
+
+.center[
+<img width="90%" src="img/Figure_2_4.png" />
+]
 
 ---
 class: top, left
@@ -309,9 +359,7 @@ class: top, left
 
 **Acoplamento e atraso na resposta**
 
-```{r fig4, include=TRUE, echo=FALSE, out.width="85%", fig.align='center'}
-knitr::include_graphics("img/Figure_3_NOVA.png")
-```
+<img width="100%" src="img/coup.png" />
 
 ---
 class: top, left
@@ -351,7 +399,7 @@ class: top, left
 
 **Disponibilidade de água**
 
-<img width="42%" src="img/root_depth.png"/>
+<img width="43%" src="img/root_depth.png"/>
 <img width="55%" src="img/water_table_depth.png"/>
 
 
@@ -367,21 +415,21 @@ class: top, left
 ---
 class:top, center
 .left[
-# Discussão
+## Discussão
 ]
 
 ### Algumas plantas são tolerantes ao alagamento
 
-<img width="42%" src="img/flood_tolerance_1.png"/>
-<img width="52%" src="img/flood_tolerance_2.png"/> 
+<img width="48%" src="img/flood_tolerance_1.png"/>
+<img width="48%" src="img/flood_tolerance_2.png"/> 
 
 --
 
 ### ...mas há limitações na estação chuvosa
 
-<img width="32%" src="img/schongart.png"/>
-<img width="32%" src="img/leadwetness.png"/>
-<img width="32%" src="img/clouds.png"/>
+<img width="37%" src="img/schongart.png"/>
+<img width="37%" src="img/leadwetness.png"/>
+<img width="37%" src="img/clouds.png"/>
 
 ---
 class: top, left
@@ -389,13 +437,15 @@ class: top, left
 
 ## Savanna não é sensível à diminuição da precipitação durante a estação seca;
 
-- Diversidade de estratégias de resistência à seca;
+- Diversidade de estratégias de tolerância à seca;
 - Acesso à água;
 - Facilitação;
+- Controle da perda d'água
 
-<img width="32%" src="img/strategy1.png"/>
-<img width="33%" src="img/strategy2.png"/>
-<img width="33%" src="img/guiga.png"/>
+<img width="50%" src="img/strategy1.png"/>
+<img width="49%" src="img/strategy2.png"/>
+<img width="49%" src="img/guiga.png"/>
+<img width="49%" src="img/bucci2008.png"/>
 
 ---
 
@@ -407,9 +457,10 @@ class: top, left
 
 - Ontogenia têm papel importante na estruturação da vegetação e nas respostas à seca.
 
-<img width="32%" src="img/dry for.png"/>
-<img width="32%" src="img/dry for 2.png"/>
-<img width="32%" src="img/dry for 3.png"/>
+<img width="45%" src="img/dry for.png"/>
+<img width="45%" src="img/dry for 2.png"/>
+
+.center[<img width="45%" src="img/dry for 3.png"/>]
 
 ---
 class: top, left
@@ -447,21 +498,21 @@ class: top, left
 ## Novidade metodológica
 
 
-### A funcionalidade não é medida por atributos funcionais e sim pela resposta à oscilações na chuva.
+I. A funcionalidade não é medida por atributos funcionais e sim pela resposta à oscilações na chuva.
 
 ***
 
-### Proxy de funcionalidade capta resposta da vegetação ao longo do tempo;
+II. Proxy de funcionalidade capta resposta da vegetação ao longo do tempo;
 
 ***
 
-### Não há necessidade de se criar um gradiente de condições artificial ao se utilizar um gradiente espacial de alguma condição para representar sua variação no tempo.
+III. Não há necessidade de se criar um gradiente de condições artificial ao se utilizar um gradiente espacial de alguma condição para representar sua variação no tempo.
 
 ***
 
 ## Contribuição ao arcabouço de conhecimento
 
-### Mostramos que matas secas, matas de galeria e savanas são funcionalmente diferetes e que não são estados alternativos funcionais sob o mesmo regime de precipitação.
+IV Mostramos que matas secas, matas de galeria e savanas são funcionalmente diferetes e que não são estados alternativos funcionais sob o mesmo regime de precipitação.
 
 ---
 ## Agradecimentos
