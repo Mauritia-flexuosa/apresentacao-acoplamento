@@ -1,5 +1,5 @@
 
-**Are coexisting biomes in a heterogeneous landscape alternative stable states?**
+**Are coexisting biomes in a heterogeneous tropical landscape alternative stable states?**
 
 
 Este documento é a apresentação montada em R (<https://www.r-project.org/>) de um artigo por ocasião de minha qualificação de doutorado em ecologia ([PPGEcologia - UFSC](https://www.poseco.ufsc.br)). O artigo se chama *Are coexisting biomes in a heterogeneous tropical landscape alternative stable states?*.
