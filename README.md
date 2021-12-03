@@ -1,8 +1,8 @@
 
-**Are coexisting biomes in a heterogeneous tropical landscape alternative stable states?**
+**Are coexisting vegetation types in a heterogeneous tropical landscape alternative stable states?**
 
 
-Este documento é a apresentação montada em R (<https://www.r-project.org/>) de um artigo por ocasião de minha qualificação de doutorado em ecologia ([PPGEcologia - UFSC](https://www.poseco.ufsc.br)). O artigo se chama *Are coexisting biomes in a heterogeneous tropical landscape alternative stable states?*.
+Este documento é a apresentação montada em R (<https://www.r-project.org/>) de um artigo por ocasião de minha qualificação de doutorado em ecologia ([PPGEcologia - UFSC](https://www.poseco.ufsc.br)). O artigo se chama *Are coexisting vegetation types in a heterogeneous tropical landscape alternative stable states?*.
 
 O título da minha tese é *Estados alternativos funcionais, mecanismos de feedback e resiliência da vegetação tropical*. O *objetivo geral* da tese é entender a resiliência da vegetação tropical à mudanças nos regimes de chuva com base na funcionalidade da vegetação. Para isso, a tese está organizada em três capítulos. O *Capítuo I* é uma revisão que busca entender a relação dos atributos funcionais da vegetação neotropical com os mecanismos de feedback que governam a dinâmica de florestas e savanas. O *Capítulo II* testa se florestas e savannas são estados alternativos funcionais sob o mesmo regime de precipitação, na escala de paisagem. O *Capítulo III* testa se florestas e savanas são estados alternativos funcionais ao longo de um gradiente de sazonalidade, ou seja, de leste para oeste na região neotropical. O artigo que eu vou apresentar se refere ao Capítulo II.
 
