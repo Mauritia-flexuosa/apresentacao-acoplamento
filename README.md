@@ -1,6 +1,7 @@
 
-**Are coexisting vegetation types in a heterogeneous tropical landscape alternative stable states?**
+# **Are coexisting vegetation types in a heterogeneous tropical landscape alternative stable states?**
 
+## Link para a apresentação: https://mauritia-flexuosa.github.io/apresentacao-acoplamento
 
 Este documento é a apresentação montada em R (<https://www.r-project.org/>) de um artigo por ocasião de minha qualificação de doutorado em ecologia ([PPGEcologia - UFSC](https://www.poseco.ufsc.br)). O artigo se chama *Are coexisting vegetation types in a heterogeneous tropical landscape alternative stable states?*.
 
